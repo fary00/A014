@@ -1,0 +1,38 @@
+body{
+    font-family:"Avenir Next";
+}
+
+li{
+    list-style: none;
+}
+
+.header{
+    background-color: aqua;
+    color: coral;
+    height: 100px;
+}
+
+.logo-header h2{
+    float: left;
+    font-size: 35px;
+    display: inline-block;
+}
+
+.daftar-header li{
+    display: inline-block;
+    float:left;
+    font-size: 30;
+    font-weight: bold;
+    padding-left: 40px;
+    padding-right: 10px;
+    margin-top: 40px;
+}
+
+.daftar-header li:hover{
+    cursor: pointer;
+    color: tomato;
+}
+
+.daftar-header li:active{
+    color: darkslategray;
+}
